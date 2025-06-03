@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Update page title
-    document.title = 'Alex Chen | Software Engineer & Developer';
+    document.title = 'Shithj Portfolio';
   }, []);
 
   return (
