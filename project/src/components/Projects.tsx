@@ -17,36 +17,37 @@ const projects: Project[] = [
     id: 1,
     title: "Banking World Project",
     description: "A full-featured banking platform where the account is maintained",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "https://images.pexels.com/photos/210574/pexels-photo-210574.jpeg",
     tags: ["Python", "OOP"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/Shithijms/banking_world_project"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates. Users can create projects, assign tasks, and track progress.",
-    image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    tags: ["React", "Firebase", "Redux", "Material UI"],
+    title: "HR ChatBot",
+    description: "A collaborative bot that communicates without the intervention of the HR and clarifies the queries and requests of the team",
+    image: "https://images.pexels.com/photos/8566458/pexels-photo-8566458.jpeg",
+    tags: ["React", "Langchain", "Python", "FastAPI"],
     liveUrl: "https://example.com",
+    githubUrl: "https://github.com/Shithijms/HR-chatbot"
+  },
+  {
+    id: 3,
+    title: "Django CRM",
+    description: "An application that managaes the customer relationship and provides a platform for the customers to interact with the company",
+    image: "https://images.pexels.com/photos/7689734/pexels-photo-7689734.jpeg",
+    tags: ["Python", "Django"],
     githubUrl: "https://github.com"
   },
-  // {
-  //   id: 3,
-  //   title: "AI Content Generator",
-  //   description: "An application that leverages AI to generate content for blog posts, social media, and marketing materials.",
-  //   image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  //   tags: ["Python", "TensorFlow", "React", "FastAPI"],
-  //   githubUrl: "https://github.com"
-  // },
-  // {
-  //   id: 4,
-  //   title: "Health & Fitness Tracker",
-  //   description: "A mobile application for tracking workouts, nutrition, and health metrics. Includes data visualization and goal setting features.",
-  //   image: "https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  //   tags: ["React Native", "GraphQL", "Node.js", "PostgreSQL"],
-  //   liveUrl: "https://example.com"
-  // },
+   {
+     id: 4,
+     title: "SpaceShip Game",
+     description: "A fun and interactive spaceship two player game built with pure python",
+     image: "https://images.pexels.com/photos/7476134/pexels-photo-7476134.jpeg",
+     tags: ["Python", "Pygame"],
+     liveUrl: "https://example.com",
+     githubUrl: "https://github.com/Shithijms/spaceship-game"
+  }
   // {
   //   id: 5,
   //   title: "Real-time Chat Application",
@@ -56,15 +57,15 @@ const projects: Project[] = [
   //   liveUrl: "https://example.com",
   //   githubUrl: "https://github.com"
   // },
-  {
-    id: 6,
-    title: "Weather Dashboard",
-    description: "A weather application that provides current conditions and forecasts. Includes location detection and interactive maps.",
-    image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    tags: ["JavaScript", "APIs", "CSS", "HTML"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com"
-  }
+  //{
+  //   id: 6,
+  //   title: "Weather Dashboard",
+  //   description: "A weather application that provides current conditions and forecasts. Includes location detection and interactive maps.",
+  //   image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  //   tags: ["JavaScript", "APIs", "CSS", "HTML"],
+  //   liveUrl: "https://example.com",
+  //   githubUrl: "https://github.com"
+  // }
 ];
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (

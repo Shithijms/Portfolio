@@ -33,8 +33,8 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <FeatureCard 
             icon={<Code className="w-6 h-6" />}
-            title="Web Development"
-            description="Building responsive and performant web applications using modern frameworks and tools."
+            title="Dev Ops"
+            description="Deploying simple web applications on the server."
           />
           <FeatureCard 
             icon={<Globe className="w-6 h-6" />}
@@ -75,6 +75,7 @@ Outside of my academic and technical pursuits, I enjoy drawing, playing sports, 
                     <h4 className="font-semibold">Bachelor in Engineering </h4>
                     <p className="text-gray-600">Sahyadri College of Engineering and Management</p>
                   </div>
+
                 </div>
                
                 

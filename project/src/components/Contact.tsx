@@ -127,7 +127,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
               
-              <div className="md:w-2/3 p-8">
+              {/* <div className="md:w-2/3 p-8">
                 <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
                 
                 {submitStatus && (
@@ -138,7 +138,7 @@ const Contact: React.FC = () => {
                   </div>
                 )}
                 
-                <form onSubmit={handleSubmit}>
+                { <form onSubmit={handleSubmit}>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div>
                       <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
@@ -225,8 +225,8 @@ const Contact: React.FC = () => {
                       </>
                     )}
                   </button>
-                </form>
-              </div>
+                </form> }
+              </div> */}
             </div>
           </div>
         </div>
